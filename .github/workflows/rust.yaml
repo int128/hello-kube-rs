@@ -1,4 +1,4 @@
-name: build
+name: rust
 
 on:
   pull_request:
@@ -7,7 +7,7 @@ on:
       - main
 
 jobs:
-  rust:
+  build:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
